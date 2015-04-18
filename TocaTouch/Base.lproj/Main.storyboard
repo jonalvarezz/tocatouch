@@ -5,10 +5,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Toca Touch-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                <viewController title="Toca Touch" id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -29,23 +29,47 @@
                                     <segue destination="snG-PS-RVv" kind="show" id="SUK-5I-nEz"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="o parlantes y subir el volumen" textAlignment="center" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumFontSize="10" preferredMaxLayoutWidth="500" translatesAutoresizingMaskIntoConstraints="NO" id="txy-sD-FRc">
+                                <rect key="frame" x="29" y="367" width="542" height="31"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Asegúrese de utilizar audifonos" textAlignment="center" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumFontSize="10" preferredMaxLayoutWidth="500" translatesAutoresizingMaskIntoConstraints="NO" id="SNs-cb-zwE">
+                                <rect key="frame" x="29" y="331" width="542" height="37"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="txy-sD-FRc" secondAttribute="trailing" constant="13" id="0iU-Q7-Kzg"/>
                             <constraint firstItem="EjH-TI-FPq" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="0zm-ab-OZw"/>
+                            <constraint firstItem="txy-sD-FRc" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="13" id="6Fu-l1-stz"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="EjH-TI-FPq" secondAttribute="bottom" constant="8" id="7oB-kP-8Xp"/>
+                            <constraint firstItem="SNs-cb-zwE" firstAttribute="leading" secondItem="EjH-TI-FPq" secondAttribute="trailing" constant="-555" id="AFG-qk-IOM"/>
+                            <constraint firstItem="SNs-cb-zwE" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="13" id="Bo8-n5-TLB"/>
                             <constraint firstItem="EjH-TI-FPq" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="Go1-JF-yC6"/>
+                            <constraint firstItem="SNs-cb-zwE" firstAttribute="leading" secondItem="EjH-TI-FPq" secondAttribute="trailing" constant="-555" id="JGt-3i-Tx2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="SNs-cb-zwE" secondAttribute="trailing" constant="13" id="T2d-bK-yQy"/>
+                            <constraint firstItem="EjH-TI-FPq" firstAttribute="leading" secondItem="txy-sD-FRc" secondAttribute="trailing" constant="-555" id="hfM-u0-NTh"/>
+                            <constraint firstItem="txy-sD-FRc" firstAttribute="top" secondItem="EjH-TI-FPq" secondAttribute="bottom" constant="-225" id="kJn-gh-RhJ"/>
+                            <constraint firstItem="SNs-cb-zwE" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="311" id="pyu-BA-bul"/>
+                            <constraint firstItem="SNs-cb-zwE" firstAttribute="top" secondItem="EjH-TI-FPq" secondAttribute="bottom" constant="-261" id="uoj-vC-0mH"/>
                             <constraint firstItem="EjH-TI-FPq" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="xJ5-79-isg"/>
+                            <constraint firstItem="txy-sD-FRc" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="347" id="xJv-Xg-ydZ"/>
+                            <constraint firstItem="txy-sD-FRc" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="13" id="zZ4-ib-asQ"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--Toca View Controller-->
+        <!--Toca Touch: 2!-->
         <scene sceneID="dvg-1R-ZDD">
             <objects>
-                <viewController id="snG-PS-RVv" customClass="TocaViewController" sceneMemberID="viewController">
+                <viewController title="Toca Touch: 2!" id="snG-PS-RVv" customClass="TocaViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Z2J-03-tol"/>
                         <viewControllerLayoutGuide type="bottom" id="0rB-1G-jwI"/>

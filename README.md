@@ -1,8 +1,14 @@
 # TocaTouch
 
+
+> **Para disfrutar de la aplicación se deben utilizar audifonos o parlantes.**
+
+
 Actualmente los niños con deficiencia visual comienzan a jugar más tarde que los videntes debido que necesitan constante supervisión adulta y además sólo un 46% de los juguetes que existen son accesibles para ellos. Esta cifra disminuye considerablemente a partir de los 3 años de edad. 
 
 Pero no tiene porqué ser así, el propósito de esta aplicación es ayudar a los niños con deficiencias visuales, a desarrollar su pensamiento lógico por medio de actividades matemáticas ya que esta es la inteligencia que más desarrollan a lo largo de sus vidas.
+
+> **Para disfrutar de la aplicación se deben utilizar audifonos o parlantes.**
 
 ## Objetivos
 * Aumentar la accesibilidad a los juegos que dispone.

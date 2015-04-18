@@ -81,10 +81,8 @@
 		AD4759FB1AE2A47A0031F984 /* TocaTouch */ = {
 			isa = PBXGroup;
 			children = (
-				AD475A001AE2A47A0031F984 /* AppDelegate.h */,
-				AD475A011AE2A47A0031F984 /* AppDelegate.m */,
-				AD475A031AE2A47A0031F984 /* ViewController.h */,
-				AD475A041AE2A47A0031F984 /* ViewController.m */,
+				AD475A561AE2BB000031F984 /* Delegate */,
+				AD475A571AE2BB0A0031F984 /* Controller */,
 				AD475A061AE2A47A0031F984 /* Main.storyboard */,
 				AD475A091AE2A47A0031F984 /* Images.xcassets */,
 				AD475A0B1AE2A47A0031F984 /* LaunchScreen.xib */,
@@ -117,6 +115,24 @@
 				AD475A171AE2A47A0031F984 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD475A561AE2BB000031F984 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				AD475A001AE2A47A0031F984 /* AppDelegate.h */,
+				AD475A011AE2A47A0031F984 /* AppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		AD475A571AE2BB0A0031F984 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AD475A031AE2A47A0031F984 /* ViewController.h */,
+				AD475A041AE2A47A0031F984 /* ViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

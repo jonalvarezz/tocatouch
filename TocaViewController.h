@@ -7,8 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface TocaViewController : UIViewController
+@interface TocaViewController : UIViewController <AVAudioPlayerDelegate> {
+    
+    AVAudioPlayer * voicePlayerInit;
+    AVAudioPlayer * voicePlayerWin;
+    AVAudioPlayer * voicePlayerFail;
+    
+}
 
 @property NSNumber * counter;
 

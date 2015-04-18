@@ -21,6 +21,30 @@
     _counter  = @0;
     _maxTouch = @2;
     
+    // Inicialización media
+    
+    // Inicio toca
+    NSString * resource = [[NSBundle mainBundle]pathForResource:@"toca" ofType:@"m4a"];
+    
+    voicePlayerInit = [[AVAudioPlayer alloc]initWithContentsOfURL:[NSURL fileURLWithPath:resource]  error:NULL];
+    voicePlayerInit.delegate = self;
+    voicePlayerInit.numberOfLoops = 0;
+    
+    // Ganador
+    resource = [[NSBundle mainBundle]pathForResource:@"gana" ofType:@"m4a"];
+    voicePlayerWin = [[AVAudioPlayer alloc]initWithContentsOfURL:[NSURL fileURLWithPath:resource]  error:NULL];
+    voicePlayerWin.delegate = self;
+    voicePlayerWin.numberOfLoops = 0;
+    
+    // Perdedor
+    resource = [[NSBundle mainBundle]pathForResource:@"falla" ofType:@"m4a"];
+    voicePlayerFail = [[AVAudioPlayer alloc]initWithContentsOfURL:[NSURL fileURLWithPath:resource]  error:NULL];
+    voicePlayerFail.delegate = self;
+    voicePlayerFail.numberOfLoops = 0;
+    
+    
+    [voicePlayerInit play];
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -31,14 +55,18 @@
 - (IBAction)boton:(id)sender {
     _counter = [NSNumber numberWithInt:( [_counter intValue] + 1 )];
     
+    [voicePlayerInit stop];
+    [voicePlayerWin stop];
+    [voicePlayerFail stop];
+    
     if( [_counter isEqualToNumber:_maxTouch] ) {
         // Gana
-        // reproduce sonido gano
+        [voicePlayerWin play];
         
     }
     else if ( [_counter intValue] > [_maxTouch intValue]) {
         //pierde
-        // reproduce sonido perdio
+        [voicePlayerFail play];
     }
     
     NSLog(@"%d", [_counter intValue]);

@@ -15,6 +15,10 @@
 		AD475A0D1AE2A47A0031F984 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD475A0B1AE2A47A0031F984 /* LaunchScreen.xib */; };
 		AD475A191AE2A47A0031F984 /* TocaTouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD475A181AE2A47A0031F984 /* TocaTouchTests.m */; };
 		AD475A5D1AE2BEAF0031F984 /* TocaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD475A5C1AE2BEAF0031F984 /* TocaViewController.m */; };
+		AD475A6A1AE2CB3C0031F984 /* falla.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AD475A661AE2CB3C0031F984 /* falla.m4a */; };
+		AD475A6B1AE2CB3C0031F984 /* gana.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AD475A671AE2CB3C0031F984 /* gana.m4a */; };
+		AD475A6C1AE2CB3C0031F984 /* inicio.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AD475A681AE2CB3C0031F984 /* inicio.m4a */; };
+		AD475A6D1AE2CB3C0031F984 /* toca.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AD475A691AE2CB3C0031F984 /* toca.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +47,10 @@
 		AD475A181AE2A47A0031F984 /* TocaTouchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TocaTouchTests.m; sourceTree = "<group>"; };
 		AD475A5B1AE2BEAF0031F984 /* TocaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TocaViewController.h; path = ../TocaViewController.h; sourceTree = "<group>"; };
 		AD475A5C1AE2BEAF0031F984 /* TocaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TocaViewController.m; path = ../TocaViewController.m; sourceTree = "<group>"; };
+		AD475A661AE2CB3C0031F984 /* falla.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = falla.m4a; sourceTree = "<group>"; };
+		AD475A671AE2CB3C0031F984 /* gana.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = gana.m4a; sourceTree = "<group>"; };
+		AD475A681AE2CB3C0031F984 /* inicio.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = inicio.m4a; sourceTree = "<group>"; };
+		AD475A691AE2CB3C0031F984 /* toca.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = toca.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +97,7 @@
 				AD475A061AE2A47A0031F984 /* Main.storyboard */,
 				AD475A091AE2A47A0031F984 /* Images.xcassets */,
 				AD475A0B1AE2A47A0031F984 /* LaunchScreen.xib */,
+				AD475A6E1AE2CB420031F984 /* Media */,
 				AD4759FC1AE2A47A0031F984 /* Supporting Files */,
 			);
 			path = TocaTouch;
@@ -138,6 +147,18 @@
 				AD475A041AE2A47A0031F984 /* ViewController.m */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		AD475A6E1AE2CB420031F984 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				AD475A661AE2CB3C0031F984 /* falla.m4a */,
+				AD475A671AE2CB3C0031F984 /* gana.m4a */,
+				AD475A681AE2CB3C0031F984 /* inicio.m4a */,
+				AD475A691AE2CB3C0031F984 /* toca.m4a */,
+			);
+			name = Media;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,8 +242,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD475A081AE2A47A0031F984 /* Main.storyboard in Resources */,
+				AD475A6A1AE2CB3C0031F984 /* falla.m4a in Resources */,
 				AD475A0D1AE2A47A0031F984 /* LaunchScreen.xib in Resources */,
+				AD475A6B1AE2CB3C0031F984 /* gana.m4a in Resources */,
+				AD475A6D1AE2CB3C0031F984 /* toca.m4a in Resources */,
 				AD475A0A1AE2A47A0031F984 /* Images.xcassets in Resources */,
+				AD475A6C1AE2CB3C0031F984 /* inicio.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

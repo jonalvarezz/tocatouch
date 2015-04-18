@@ -19,6 +19,7 @@
 		AD475A6B1AE2CB3C0031F984 /* gana.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AD475A671AE2CB3C0031F984 /* gana.m4a */; };
 		AD475A6C1AE2CB3C0031F984 /* inicio.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AD475A681AE2CB3C0031F984 /* inicio.m4a */; };
 		AD475A6D1AE2CB3C0031F984 /* toca.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AD475A691AE2CB3C0031F984 /* toca.m4a */; };
+		AD475A701AE2CB8E0031F984 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD475A6F1AE2CB8E0031F984 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		AD475A671AE2CB3C0031F984 /* gana.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = gana.m4a; sourceTree = "<group>"; };
 		AD475A681AE2CB3C0031F984 /* inicio.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = inicio.m4a; sourceTree = "<group>"; };
 		AD475A691AE2CB3C0031F984 /* toca.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = toca.m4a; sourceTree = "<group>"; };
+		AD475A6F1AE2CB8E0031F984 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD475A701AE2CB8E0031F984 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 				AD4759FB1AE2A47A0031F984 /* TocaTouch */,
 				AD475A151AE2A47A0031F984 /* TocaTouchTests */,
 				AD4759FA1AE2A47A0031F984 /* Products */,
+				AD475A711AE2CB940031F984 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,6 +163,14 @@
 			);
 			name = Media;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		AD475A711AE2CB940031F984 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD475A6F1AE2CB8E0031F984 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

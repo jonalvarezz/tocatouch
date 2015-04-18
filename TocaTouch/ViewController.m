@@ -17,6 +17,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSString * voiceURI = [[NSBundle mainBundle]pathForResource:@"inicio" ofType:@"m4a"];
+    
+    welcomeVoice = [[AVAudioPlayer alloc]initWithContentsOfURL:[NSURL fileURLWithPath:voiceURI]  error:NULL];
+    
+    welcomeVoice.delegate = self;
+    
+    welcomeVoice.numberOfLoops = 0;
+    
+    [welcomeVoice play];
+    
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+    [welcomeVoice stop];
 }
 
 - (void)didReceiveMemoryWarning {

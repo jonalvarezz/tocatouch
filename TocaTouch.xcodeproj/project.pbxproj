@@ -14,6 +14,7 @@
 		AD475A0A1AE2A47A0031F984 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD475A091AE2A47A0031F984 /* Images.xcassets */; };
 		AD475A0D1AE2A47A0031F984 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD475A0B1AE2A47A0031F984 /* LaunchScreen.xib */; };
 		AD475A191AE2A47A0031F984 /* TocaTouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD475A181AE2A47A0031F984 /* TocaTouchTests.m */; };
+		AD475A5D1AE2BEAF0031F984 /* TocaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD475A5C1AE2BEAF0031F984 /* TocaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		AD475A121AE2A47A0031F984 /* TocaTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TocaTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD475A171AE2A47A0031F984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD475A181AE2A47A0031F984 /* TocaTouchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TocaTouchTests.m; sourceTree = "<group>"; };
+		AD475A5B1AE2BEAF0031F984 /* TocaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TocaViewController.h; path = ../TocaViewController.h; sourceTree = "<group>"; };
+		AD475A5C1AE2BEAF0031F984 /* TocaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TocaViewController.m; path = ../TocaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +132,8 @@
 		AD475A571AE2BB0A0031F984 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				AD475A5B1AE2BEAF0031F984 /* TocaViewController.h */,
+				AD475A5C1AE2BEAF0031F984 /* TocaViewController.m */,
 				AD475A031AE2A47A0031F984 /* ViewController.h */,
 				AD475A041AE2A47A0031F984 /* ViewController.m */,
 			);
@@ -236,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD475A051AE2A47A0031F984 /* ViewController.m in Sources */,
+				AD475A5D1AE2BEAF0031F984 /* TocaViewController.m in Sources */,
 				AD475A021AE2A47A0031F984 /* AppDelegate.m in Sources */,
 				AD4759FF1AE2A47A0031F984 /* main.m in Sources */,
 			);

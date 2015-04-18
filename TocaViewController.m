@@ -14,9 +14,13 @@
 
 @implementation TocaViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    _counter  = @0;
+    _maxTouch = @2;
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -25,6 +29,19 @@
 }
 
 - (IBAction)boton:(id)sender {
+    _counter = [NSNumber numberWithInt:( [_counter intValue] + 1 )];
+    
+    if( [_counter isEqualToNumber:_maxTouch] ) {
+        // Gana
+        // reproduce sonido gano
+        
+    }
+    else if ( [_counter intValue] > [_maxTouch intValue]) {
+        //pierde
+        // reproduce sonido perdio
+    }
+    
+    NSLog(@"%d", [_counter intValue]);
     
 }
 @end

@@ -12,6 +12,8 @@
 
 @property NSNumber * counter;
 
+@property NSNumber * maxTouch;
+
 - (IBAction)boton:(id)sender;
 
 @end
